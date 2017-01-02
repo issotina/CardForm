@@ -4,10 +4,13 @@
 CardForm can be used as a simple credit card validation form with any credit card form and any payment API (without you changing anything). Everything is created with Android SDK - no picture is required.
 
 ![Demo App]
-(https://cdn.rawgit.com/geeckmc/CardForm/master/demo.gif)
+(https://cdn.rawgit.com/geeckmc/CardForm/master/demo.gif {width=360px height=450px})
 
-> Usage 
-> `  <com.craftman.cardform.CardForm
+##Usage 
+
+<com.craftman.cardform.CardForm
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/card_form"/>`
+ 
+ 
