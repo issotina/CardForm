@@ -5,13 +5,13 @@ CardForm can be used as a simple credit card validation form with any credit car
 
 ![Demo App]
 (https://raw.githubusercontent.com/geeckmc/CardForm/master/demo.gif)
-#Usage
 
 ##Installation
 **by Gradle:**
  ```gradle
  compile 'com.craftman.cardform:cardform:0.0.2'
 ```
+
 ##Setup and usage
 
 **Use CardForm layout in your xml code:**
@@ -27,7 +27,8 @@ CardForm cardForm = (CardForm) findViewById(R.id.card_form);
 cardForm.setPayBtnClickListner(new OnPayBtnClickListner() {
     @Override
     public void onClick(Card card) {
-        //Your code here!!
+        //Your code here!! use card.getXXX() for get any card property
+        //for instance card.getName();
     }
 });
 ```
