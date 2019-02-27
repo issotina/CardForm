@@ -1,18 +1,17 @@
-#ANDROID CARD FORM
+# ANDROID CARD FORM
 **A better Android credit/debit card interactive form without writing a lot of code**
 
 CardForm can be used as a simple credit card validation form with any credit card form and any payment API (without you changing anything). Everything is created with Android SDK - no picture is required.
 
-![Demo App]
-(https://raw.githubusercontent.com/geeckmc/CardForm/master/demo.gif)
+![Demo App](https://raw.githubusercontent.com/geeckmc/CardForm/master/demo.gif)
 
-##Installation
+## Installation
 **by Gradle:**
  ```gradle
- compile 'com.craftman.cardform:cardform:0.0.2'
+        compile 'com.craftman.cardform:cardform:0.0.2'
 ```
 
-##Setup and usage
+## Setup and usage
 
 **Use CardForm layout in your xml code:**
 ```xml
@@ -35,7 +34,7 @@ cardForm.setPayBtnClickListner(new OnPayBtnClickListner() {
 
 
 
-#License
+# License
 
 ```
 Copyright 2016 Shadaï ALI (craftman).
